@@ -17,4 +17,5 @@ end
 #   str == str.reverse
 # end
 
-
+# p palindrome?("cat")
+# p palindrome?("bob")
