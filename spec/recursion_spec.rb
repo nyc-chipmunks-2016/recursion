@@ -18,6 +18,10 @@ end
 
 
 describe 'recursive_flatten' do
+	intial_array=[[1, [8, 9]], [3, 4]]
 
+	it "returns a flatten array of made from multiple arrays" do
+	expect(recursive_flatten(intial_array)).to eq [1, 8, 9, 3, 4]	
+	end	
 
 end	
